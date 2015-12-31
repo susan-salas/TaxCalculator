@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purple_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQo-9Y-Ubo">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-8" y="0.0" width="428" height="616"/>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="anx-gi-Ono">
+                                <rect key="frame" x="252" y="20" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ayE-Z6-UqZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="eMf-kz-zVn"/>
+                                    <constraint firstAttribute="width" constant="97" id="fRy-2j-XnP"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="ump-Iw-5jb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ayE-Z6-UqZ"/>
+                                        <exclude reference="eMf-kz-zVn"/>
+                                        <exclude reference="fRy-2j-XnP"/>
+                                        <exclude reference="ump-Iw-5jb"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="152" y="105" width="97" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="ayE-Z6-UqZ"/>
+                                        <include reference="eMf-kz-zVn"/>
+                                        <include reference="fRy-2j-XnP"/>
+                                        <include reference="ump-Iw-5jb"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATV-qi-IlR">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="121" id="2tj-oq-yLL"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Dfc-hE-Gya"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Fye-Q2-eIz"/>
+                                    <constraint firstAttribute="height" constant="21" id="Ie9-cf-XhQ"/>
+                                    <constraint firstAttribute="width" constant="121" id="O0X-QY-etD"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="121" id="VLy-D4-lY0"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="121" id="ZbH-9t-EEc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="apn-fk-vqK"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="121" id="iIz-A4-MdB"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="yMK-aV-mza"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2tj-oq-yLL"/>
+                                        <exclude reference="Dfc-hE-Gya"/>
+                                        <exclude reference="Fye-Q2-eIz"/>
+                                        <exclude reference="Ie9-cf-XhQ"/>
+                                        <exclude reference="O0X-QY-etD"/>
+                                        <exclude reference="VLy-D4-lY0"/>
+                                        <exclude reference="ZbH-9t-EEc"/>
+                                        <exclude reference="apn-fk-vqK"/>
+                                        <exclude reference="iIz-A4-MdB"/>
+                                        <exclude reference="yMK-aV-mza"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="146" y="399" width="121" height="21"/>
+                                    <mask key="constraints">
+                                        <include reference="2tj-oq-yLL"/>
+                                        <include reference="Dfc-hE-Gya"/>
+                                        <include reference="Fye-Q2-eIz"/>
+                                        <include reference="Ie9-cf-XhQ"/>
+                                        <include reference="O0X-QY-etD"/>
+                                        <include reference="VLy-D4-lY0"/>
+                                        <include reference="ZbH-9t-EEc"/>
+                                        <include reference="apn-fk-vqK"/>
+                                        <include reference="iIz-A4-MdB"/>
+                                        <include reference="yMK-aV-mza"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Wh8-IL-WXP">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <color key="backgroundColor" red="0.92388955740000001" green="0.63880037010000001" blue="0.87739000820000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="CA"/>
+                                    <segment title="CHI"/>
+                                    <segment title="NY"/>
+                                </segments>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="48" y="193" width="316" height="29"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCalculateButtonTapped:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ARX-8A-baV"/>
+                                    <action selector="segmentedControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="o8p-OV-Jif"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQj-Ma-DPD">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Calculate Tax ">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="159" y="285" width="95" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCalculateButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T3G-vz-HMC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ATV-qi-IlR" firstAttribute="top" secondItem="nQj-Ma-DPD" secondAttribute="bottom" constant="84" id="7US-mX-Rnv"/>
+                            <constraint firstItem="Wh8-IL-WXP" firstAttribute="top" secondItem="anx-gi-Ono" secondAttribute="bottom" constant="30" id="85C-3t-nJV"/>
+                            <constraint firstAttribute="centerX" secondItem="ATV-qi-IlR" secondAttribute="centerX" id="8If-E5-G7j"/>
+                            <constraint firstAttribute="centerX" secondItem="ATV-qi-IlR" secondAttribute="centerX" id="9Rk-R2-3si"/>
+                            <constraint firstItem="anx-gi-Ono" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="FAW-WM-BiR"/>
+                            <constraint firstAttribute="centerX" secondItem="nQj-Ma-DPD" secondAttribute="centerX" id="OAY-1L-mN1"/>
+                            <constraint firstAttribute="centerX" secondItem="Wh8-IL-WXP" secondAttribute="centerX" id="TyO-V0-aDs"/>
+                            <constraint firstAttribute="centerX" secondItem="anx-gi-Ono" secondAttribute="centerX" id="VXI-gA-fCR"/>
+                            <constraint firstAttribute="centerX" secondItem="ATV-qi-IlR" secondAttribute="centerX" id="ZKB-A0-fCx"/>
+                            <constraint firstItem="ATV-qi-IlR" firstAttribute="top" secondItem="nQj-Ma-DPD" secondAttribute="bottom" constant="200" id="cRd-Rz-9wD"/>
+                            <constraint firstAttribute="centerY" secondItem="nQj-Ma-DPD" secondAttribute="centerY" id="jZK-tC-yc0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="KQo-9Y-Ubo"/>
+                                <exclude reference="ATV-qi-IlR"/>
+                                <exclude reference="Wh8-IL-WXP"/>
+                                <exclude reference="nQj-Ma-DPD"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FAW-WM-BiR"/>
+                                <exclude reference="VXI-gA-fCR"/>
+                                <exclude reference="85C-3t-nJV"/>
+                                <exclude reference="TyO-V0-aDs"/>
+                                <exclude reference="OAY-1L-mN1"/>
+                                <exclude reference="jZK-tC-yc0"/>
+                                <exclude reference="7US-mX-Rnv"/>
+                                <exclude reference="8If-E5-G7j"/>
+                                <exclude reference="9Rk-R2-3si"/>
+                                <exclude reference="ZKB-A0-fCx"/>
+                                <exclude reference="cRd-Rz-9wD"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="KQo-9Y-Ubo"/>
+                                <include reference="ATV-qi-IlR"/>
+                                <include reference="Wh8-IL-WXP"/>
+                                <include reference="nQj-Ma-DPD"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="FAW-WM-BiR"/>
+                                <include reference="VXI-gA-fCR"/>
+                                <include reference="85C-3t-nJV"/>
+                                <include reference="TyO-V0-aDs"/>
+                                <include reference="OAY-1L-mN1"/>
+                                <include reference="jZK-tC-yc0"/>
+                                <include reference="7US-mX-Rnv"/>
+                                <include reference="8If-E5-G7j"/>
+                                <include reference="9Rk-R2-3si"/>
+                                <include reference="ZKB-A0-fCx"/>
+                                <include reference="cRd-Rz-9wD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="onCalculateButtonTapped" destination="nQj-Ma-DPD" id="x5J-cS-lJu"/>
+                        <outlet property="priceTextField" destination="anx-gi-Ono" id="wjS-XH-BpT"/>
+                        <outlet property="resultLabel" destination="ATV-qi-IlR" id="Zib-W3-0u3"/>
+                        <outlet property="segmentedControl" destination="Wh8-IL-WXP" id="rOD-aN-jjs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="purple_bg.png" width="160" height="284"/>
+    </resources>
+</document>
